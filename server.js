@@ -12,7 +12,9 @@ app.use(express.static('public'));
 
 mongodb.connect(process.env.CONNECTIONSTRING, {useNewUrlParser: true, useUnifiedTopology: true}, function(err, client) {
     db = client.db();
-    app.listen(process.env.PORT || 8000);
+    app.listen(process.env.PORT || 3000, function() {
+      console.log('Server listening on port 3000');
+      });
   })
 
 app.use(express.json());
