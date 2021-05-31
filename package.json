@@ -6,7 +6,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server",
-    "deploy": "gh -d MYSIMPLETODOAPP",
+    "deploy": "gh-pages -d MYSIMPLETODOAPP",
     "start": "node server.js"
   },
   "keywords": [],
