@@ -1,7 +1,9 @@
 {
-  "homepage": "https://BlessingI.github.io/Mysimpletodoapp",
   "name": "project-todo",
   "version": "1.0.0",
+  "engines": {
+    "node": "12.11.1"
+    },
   "description": "",
   "main": "server.js",
   "scripts": {
@@ -23,3 +25,5 @@
     "gh-pages": "^3.2.0"
   }
 }
+
+
