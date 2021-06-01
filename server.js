@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 dotenv.config();
 
 let app = express();
-var db;
+var db = 0;
 
 let port = process.env.PORT
 if (port == null || port =="") {
